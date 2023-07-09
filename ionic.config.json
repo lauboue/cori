@@ -1,0 +1,7 @@
+{
+  "name": "cori",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

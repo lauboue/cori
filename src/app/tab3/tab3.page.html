@@ -1,17 +1,47 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar >
     <ion-title>
-      Tab 3
+      Cori
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
+    <ion-toolbar >
+      <ion-title size="large">Cori</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <!-- card pour cori premium -->
+  <ion-card>
+    <ion-card-header >
+      <ion-card-title style="--margin-top: 0px;"><p>Cori Premium</p></ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+
+      <ion-list>
+        <ion-item lines="none">
+          <ion-text>abonnements illimités à tous les designers</ion-text> <ion-checkbox slot="end" color="success"></ion-checkbox>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-text>posts illimités</ion-text><ion-checkbox slot="end" color="success"></ion-checkbox>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-text>possibilité de tchater avec ses designers préférés</ion-text><ion-checkbox slot="end" color="success"></ion-checkbox>
+        </ion-item>
+      </ion-list>
+
+      <ion-item lines="none">
+        <ion-button slot="end" shape="round" >s'abonner</ion-button>
+      </ion-item>
+
+
+    </ion-card-content>
+  </ion-card>
+
+
+
+
 </ion-content>
